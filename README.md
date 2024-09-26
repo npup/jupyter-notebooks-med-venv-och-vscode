@@ -21,8 +21,9 @@ Se till att `.ipynb`-filer hanteras som jupyter notebooks istället för att bar
 
 ```json
 "workbench.editorAssociations": {
-    // ...övriga associationer
+    ------------ >8
     "*.ipynb": "jupyter-notebook"
+    8< ------------
 },
 ```
 
