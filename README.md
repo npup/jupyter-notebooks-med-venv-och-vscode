@@ -19,11 +19,10 @@ Tillägget installeras enklast genom att söka efter "jupyter" bland "extensions
 
 Se till att `.ipynb`-filer hanteras som jupyter notebooks istället för att bara tolkas som json. Öppna VS Codes `settings` (`Cmd+,` på en Mac, eller `Ctrl+,` i Windows/Linux) och se till att filassociationen `*.ipynb` är satt till `jupyter-notebook`:
 
-```json
+```javascript
 "workbench.editorAssociations": {
-    >8
+    // ... övriga associationer
     "*.ipynb": "jupyter-notebook"
-    8<
 },
 ```
 

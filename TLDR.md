@@ -9,11 +9,10 @@ Ha först detta installerat på din dator:
 
 Samt följande filassociation för `*.ipynb` registrerad i dina VS Code-settings:
 
-```json
+```javascript
 "workbench.editorAssociations": {
-    >8
+    // ... övriga associationer
     "*.ipynb": "jupyter-notebook"
-    8<
 },
 ```
 
