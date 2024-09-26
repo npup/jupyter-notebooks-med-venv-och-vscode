@@ -37,7 +37,7 @@ git init .
 ```bash
 python -m venv venv
 source venv/bin/activate # .\venv\Scripts\activate i Windows
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install jupyter
 ```
 
@@ -60,7 +60,7 @@ git clone git@github.com:npup/jupyter-notebooks-med-venv-och-vscode.git && cd ju
 # skapa+aktivera venv och installera dependencies:
 python -m venv venv
 source venv/bin/activate
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 # (öppna VS Code, välj kernel/venv och koda)

@@ -61,9 +61,9 @@ echo venv/ >> .gitignore
 #### 1b. Uppdatera och installera nödvändiga (och andra) paket
 
 ```bash
-pip install --upgrade pip     # skönt
-pip install jupyter           # behövs
-pip install pandas matplotlib # behövs troligen förr eller senare
+python -m pip install --upgrade pip # skönt
+pip install jupyter                 # behövs
+pip install pandas matplotlib       # behövs troligen förr eller senare
 ```
 
 ### 2. Öppna och kör projektet i din editor
@@ -104,9 +104,9 @@ utifrån requirements-filen (t.ex. med detta projekt!):
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # mac/linux
-#.\venv\Scripts\activate  # Windows
-pip install --upgrade pip # skönt
+source venv/bin/activate            # mac/linux
+#.\venv\Scripts\activate            # Windows
+python -m pip install --upgrade pip # skönt
 pip install -r requirements.txt
 ```
 
