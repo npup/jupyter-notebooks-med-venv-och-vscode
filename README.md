@@ -68,13 +68,13 @@ pip install pandas matplotlib       # behövs troligen förr eller senare
 
 ### 2. Öppna och kör projektet i din editor
 
-#### 2a. Öppna VS Code "på plats" och skapa en Notebook
+#### 2a. Öppna VS Code "på plats"
 
 ```bash
 code .
 ```
 
-#### 2b. Skapa notebook och välj körmiljö
+#### 2b. Skapa en Notebook och välj körmiljö
 
 -   Tryck `Cmd+Shift+P` (macOS) eller `Ctrl+Shift+P` (Windows/Linux)
 -   Skriv och välj "Create: New Jupyter Notebook"
