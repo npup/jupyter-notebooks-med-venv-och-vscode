@@ -111,5 +111,3 @@ pip install -r requirements.txt
 ```
 
 &mdash; och väljer denna `venv` för att köra notebooks i detta projekt ([steg 2b](#2b-skapa-notebook-och-välj-körmiljö)).
-
-Lycka till med kodningen!
