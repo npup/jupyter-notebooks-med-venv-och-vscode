@@ -11,9 +11,9 @@ Samt följande filassociation för `*.ipynb` registrerad i dina VS Code-settings
 
 ```json
 "workbench.editorAssociations": {
-    ------------ >8
+    >8
     "*.ipynb": "jupyter-notebook"
-    8< ------------
+    8<
 },
 ```
 

@@ -21,9 +21,9 @@ Se till att `.ipynb`-filer hanteras som jupyter notebooks istället för att bar
 
 ```json
 "workbench.editorAssociations": {
-    ------------ >8
+    >8
     "*.ipynb": "jupyter-notebook"
-    8< ------------
+    8<
 },
 ```
 
@@ -111,4 +111,4 @@ pip install --upgrade pip # skönt
 pip install -r requirements.txt
 ```
 
-&mdash; och väljer denna `venv` för att köra notebooks i detta projekt ([steg 2b](#2b-skapa-notebook-och-välj-körmiljö)).
+Öppna sedan Vs Code och välj `venv` som i [steg 2b](#2b-skapa-notebook-och-välj-körmiljö).
